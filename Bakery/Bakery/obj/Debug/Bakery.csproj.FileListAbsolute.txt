@@ -1,0 +1,2 @@
+C:\Users\Admin\source\repos\Bakery\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Bakery\Bakery\obj\Debug\Bakery.csproj.CoreCompileInputs.cache
