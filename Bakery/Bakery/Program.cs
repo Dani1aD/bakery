@@ -33,8 +33,8 @@ namespace Bakery
             Console.WriteLine();
             switch (Console.ReadLine())
             {
-                case "all prod": PrintBak(); break;
-                case "all bak": PrintProd(); break;
+                case "all prod": PrintProd(); break;
+                case "all bak": PrintBak(); break;
                 case "create bakery": CreateBakery(); break;
                 case "create product": CreateProduct(products, bakery); break;
             }
@@ -76,24 +76,20 @@ namespace Bakery
             Console.WriteLine("Введите название продукта");
             string product = Console.ReadLine();
 
-            Error:
+            Console.WriteLine("Введите название пекарни");
+            string bbakery = Console.ReadLine();
+
             Console.WriteLine("Введите стоимость:");
             try
             {
                 int stoimost = Convert.ToInt32(Console.ReadLine());
+
+                products.AddProducts(product, stoimost, bbakery, bakery);
             }
             catch
             {
                 Console.WriteLine("Введите корректные данные!");
-                goto Error;
             }
-            
-
-            Console.WriteLine("Список фирм:");
-            PrintBak();
-
-            Console.WriteLine("Введите фирму:");
-            _ = Console.ReadLine();
         }
     }       
 }    

@@ -14,3 +14,10 @@ C:\Users\Admin\Desktop\Bakery\Bakery\obj\Debug\Bakery.csprojAssemblyReference.ca
 C:\Users\Admin\Desktop\Bakery\Bakery\obj\Debug\Bakery.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\Bakery\Bakery\obj\Debug\Bakery.exe
 C:\Users\Admin\Desktop\Bakery\Bakery\obj\Debug\Bakery.pdb
+C:\Users\Kelerus Work\Downloads\bakery-main\bakery-main\Bakery\Bakery\bin\Debug\Bakery.exe.config
+C:\Users\Kelerus Work\Downloads\bakery-main\bakery-main\Bakery\Bakery\bin\Debug\Bakery.exe
+C:\Users\Kelerus Work\Downloads\bakery-main\bakery-main\Bakery\Bakery\bin\Debug\Bakery.pdb
+C:\Users\Kelerus Work\Downloads\bakery-main\bakery-main\Bakery\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache
+C:\Users\Kelerus Work\Downloads\bakery-main\bakery-main\Bakery\Bakery\obj\Debug\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\Kelerus Work\Downloads\bakery-main\bakery-main\Bakery\Bakery\obj\Debug\Bakery.exe
+C:\Users\Kelerus Work\Downloads\bakery-main\bakery-main\Bakery\Bakery\obj\Debug\Bakery.pdb
