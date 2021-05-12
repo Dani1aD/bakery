@@ -1,2 +1,16 @@
 C:\Users\Admin\source\repos\Bakery\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\Bakery\Bakery\obj\Debug\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\bakery\Bakery\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\bakery\Bakery\Bakery\obj\Debug\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\bakery\Bakery\Bakery\bin\Debug\Bakery.exe.config
+C:\Users\Admin\source\repos\bakery\Bakery\Bakery\bin\Debug\Bakery.exe
+C:\Users\Admin\source\repos\bakery\Bakery\Bakery\bin\Debug\Bakery.pdb
+C:\Users\Admin\source\repos\bakery\Bakery\Bakery\obj\Debug\Bakery.exe
+C:\Users\Admin\source\repos\bakery\Bakery\Bakery\obj\Debug\Bakery.pdb
+C:\Users\Admin\Desktop\Bakery\Bakery\bin\Debug\Bakery.exe.config
+C:\Users\Admin\Desktop\Bakery\Bakery\bin\Debug\Bakery.exe
+C:\Users\Admin\Desktop\Bakery\Bakery\bin\Debug\Bakery.pdb
+C:\Users\Admin\Desktop\Bakery\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Bakery\Bakery\obj\Debug\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Bakery\Bakery\obj\Debug\Bakery.exe
+C:\Users\Admin\Desktop\Bakery\Bakery\obj\Debug\Bakery.pdb

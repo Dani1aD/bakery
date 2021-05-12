@@ -10,7 +10,6 @@ namespace Bakery
     {
         private static ProductsController products;
         private static BakeryController bakery;
-        private static readonly object aProd;
 
         static void Main(string[] args)
         {
@@ -51,7 +50,7 @@ namespace Bakery
 
         private static void PrintProd()
         {
-            foreach (Products aProd in products.GetProducts()) ;
+            foreach (Products aProd in products.GetProducts())
             {
                 Console.WriteLine(aProd.ToString());
             }
@@ -77,8 +76,18 @@ namespace Bakery
             Console.WriteLine("Введите название продукта");
             string product = Console.ReadLine();
 
+            Error:
             Console.WriteLine("Введите стоимость:");
-            int stoimost = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                int stoimost = Convert.ToInt32(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("Введите корректные данные!");
+                goto Error;
+            }
+            
 
             Console.WriteLine("Список фирм:");
             PrintBak();

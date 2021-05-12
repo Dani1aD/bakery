@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bakery
 {
-    public class ProductsController
+    class ProductsController
     {
-        private List<Products> telephones { get; set; } = new List<Products>();
-
         private string[] prod = new string[] { "Сосиська в тесте", "Пицца с ветчиной и сыром" };
-        private List<Products> products;
+        private List<Products> Products = new List<Products>();
 
         public ProductsController()
         {
@@ -21,13 +19,13 @@ namespace Bakery
                 Bakery bakery = RandBakery(bakeryController);
                 int stoimost = RandStoimost();
                 Products products = new Products(item, stoimost, bakery);
-                products.Add(products);
+                Products.Add(products);
             }
         }
 
-        public List<Products> Products()
+        public List<Products> GetProducts()
         {
-            return products;
+            return Products;
         }
 
 
@@ -52,7 +50,7 @@ namespace Bakery
             {
                 if (itembakery.Name == bakery)
                 {
-                    products.Add(new Products(products, stoimost, itembakery));
+                    Products.Add(new Products(products, stoimost, itembakery));
                     return;
                 }
                 else
@@ -60,16 +58,11 @@ namespace Bakery
                     bakerycontroller.Add(bakery);
                     Bakery newBakery = bakerycontroller.GetBakerybyName(bakery);
 
-                    products.Add(new Products(products, stoimost, newBakery));
+                    Products.Add(new Products(products, stoimost, newBakery));
                     return;
                 }
             }
 
-        }
-
-        internal IEnumerable<Products> GetProducts()
-        {
-            throw new NotImplementedException();
         }
     }
 }
